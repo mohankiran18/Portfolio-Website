@@ -1,0 +1,6 @@
+Note: To use this project, install dependencies with:
+npm install @craco/craco tailwindcss postcss autoprefixer react react-dom
+
+Then run:
+npx tailwindcss init -p
+npm start

@@ -1,0 +1,36 @@
+/* You can keep global App styles here if needed */
+/* Reset and Base Styles */
+.App {
+  background: rgb(17, 17, 19);
+  color: rgb(255, 255, 255);
+  min-height: 100vh;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Ensure no center alignment for better reading flow */
+body {
+  text-align: left;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(26, 28, 30);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(63, 63, 63);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(218, 255, 1);
+}
